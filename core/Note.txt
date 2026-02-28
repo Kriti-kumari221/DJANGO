@@ -1,0 +1,21 @@
+about core_ file:
+_init_py is use for read the file  or we say constructer
+asgi.py:-this a server file  the work is asynchrones gatway  interface 
+wsgi : web server gatway interface 
+urls.py:We map the urls
+Setting.py: We add settings 
+to Create an app: we use command python manage.py startapp Appname
+then it will create fiile  Modal if we register then we use admin 
+database will be using in model.py 
+if i need to test functionality will tests.py
+view.py : logical part 
+when we make any application likw we need authontication password then it is funcationality and this 
+funcitionaly we neeed to pack in any modularity that is called app 
+python manage.py startapp Home............... yo make acc
+now we have to make an application and there is option to make account so we need to create acount 
+ python manage.py startapp account now in this account there would be loggin register password reset mail reset password 
+ Django ka app reusable hota hai like if i need for other application to this fucnationaly we can use for same with the more application 
+ how to bootup server?
+ python manage.py runserver
+ if i want to run on another post we can use 
+ python manage.py runserver 0.0.0.0.5000
